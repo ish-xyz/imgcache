@@ -4,14 +4,14 @@ The aim is to replace Dragonfly with a more reliable solution.
 
 To understand how it works, see the below request flow:
 
-<request flow>
+[[request flow diagram]]
 
 ## Architecture:
 
 
 **PROXY ARCHITECTURE:**
 
-<software design diagram>
+[[software design diagram]]
 
 **DESCRIPTION:**
 
