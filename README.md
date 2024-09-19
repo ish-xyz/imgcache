@@ -1,7 +1,5 @@
 Registry Cache is an opinionaned cache for OCI compliant images with support for multi registries.
 
-The aim is to replace Dragonfly with a more reliable solution.
-
 To understand how it works, see the below request flow:
 
 [[request flow diagram]]
@@ -60,7 +58,7 @@ server:
     scheme: https
 
   upstreamRules: 
-  - regex: "^(.+).dragonfly-local.c3.zone:7000$"
+  - regex: "^(.+).mylocaldomain.com:7000$"
     host: "$group1.myregistry.com"
     scheme: "https"
 
